@@ -1,0 +1,260 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar
+{
+    margin-top: 3%;
+}
+/* navbar css here */
+.navbar a{
+    padding: 1%;
+    margin-left: 2%;
+    margin-top: 3%;
+    vertical-align: middle;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(110, 160, 252);
+    font-size: 17px;
+}
+.btn
+{
+    background-color: #4955f8;
+    padding: 1%;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 17px;
+}
+.btn :hover{
+   cursor: pointer;
+}
+/* wallet css here */
+.wallet
+{
+    background-color: rgb(244, 247, 250);
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+}
+/* section css start here */
+.sec2
+{
+    display: flex;
+    flex-direction: row;
+}
+.sec2one
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+}
+.sec2one img{
+    width: 15%;
+}
+.sec2one h1{
+    margin-top: 5%;
+    font-size: 54px;
+}
+.sec2one p{
+    margin-top: 5%;
+    font-size: 25px;
+}
+.btn2
+{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 2%;
+    font-weight: bold;
+    margin-top: 6%;
+    font-size: 18px;
+    margin-left: 300px;
+    flex-direction: start;
+}
+.sec2two img{
+    width: 70%;
+    margin-left: 30%;
+}
+.btn2:hover{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.sec3
+{
+    background-color: rgb(70, 188, 235);
+     margin-top: 3%;
+}
+.sec3 h1{
+    color: white;
+    font-size: 37px;
+    font-weight: bold;
+    margin-left: 3%;
+    padding-top: 2%;
+}
+.icons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3.6%;
+    padding: 4%;
+    padding-bottom: 7%;
+}
+.icons div p{
+    color: white;
+    width: 6%;
+    font-size: 19px;
+    font-weight: bold;
+}
+.sec4
+{
+    background-color: rgb(8, 56, 115);
+     
+}
+.sec4 h1{
+    color: white;
+    font-size: 37px;
+    font-weight: bold;
+    margin-left: 3%;
+    padding-top: 3%;
+}
+.icons2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3.6%;
+    padding: 4%;
+    padding-bottom: 7%;
+}
+.icons2 div p{
+    color: white;
+    width: 6%;
+    font-size: 19px;
+    font-weight: bold;
+}
+.sec5
+{
+    background-color:  #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    padding: 6%;
+    justify-content: space-around;
+}
+.sec5one
+{   
+    width:35%;
+    background-color: white;
+    padding:2%;
+    border-radius: 20px;
+
+}
+.sec5one h1{
+    font-size: 40px;
+    margin-top: 4%;
+    margin-bottom: 6%;
+
+}
+.sec5 small
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+.sec6
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 90vh;
+}
+.sec6one
+{
+ margin-top: 4%;
+ width: 15%;
+ margin-left: 6%;
+}
+
+.sec6one p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.sec6one small{
+  
+  font-size: 25px;
+  
+}
+.btn3
+{
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 7%;
+}
+.h1
+{
+    font-size: 20px;
+    margin-left: 6%;
+}
+/* section7 css */
+.sec7
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+}
+.sec7one
+{
+ margin-top: 4%;
+ width: 10%;
+ margin-left: 6%;
+ background-color: rgb(96, 206, 243);
+ border-radius: 20px;
+ padding-bottom: 1%;
+ padding-left: 1%;
+ padding-top: 2%;
+ 
+}
+.sec7one p{
+    margin-top: 7%;
+    margin-bottom: 14%;
+}
+.sec7one button{
+    border: none;
+    background-color: white;
+}
+.sec8
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6%;
+}
+.sec8one
+{
+ margin-top: 4%;
+ width: 10%;
+ margin-left: 6%;
+ background-color: rgb(96, 206, 243);
+ border-radius: 20px;
+ padding-bottom: 1%;
+ padding-left: 1%;
+ padding-top: 2%;
+}
+.sec8one p{
+    margin-top: 7%;
+    margin-bottom: 14%;
+}
+.sec8one button{
+    border: none;
+    background-color: white;
+}
